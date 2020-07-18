@@ -18,3 +18,4 @@ virtualenv==16.7.9
 virtualenvwrapper-win==1.2.5
 whitenoise==5.0.1
 wrapt==1.11.2
+mysqlclient==2.0.1
