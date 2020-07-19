@@ -77,12 +77,8 @@ WSGI_APPLICATION = 'django_web_app.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'fsharedatabase',
-        'USER': 'likhith',
-        'PASSWORD': 'Karthikeya@15421',
-        'HOST': 'fshareserver1.database.windows.net',
-        'PORT': '1433',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
